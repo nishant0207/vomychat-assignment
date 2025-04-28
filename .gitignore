@@ -1,0 +1,73 @@
+# .gitignore
+
+# Python
+backend/venv/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.env
+.env.*
+
+# FastAPI Uvicorn logs
+*.log
+
+# VSCode settings
+.vscode/
+
+# Mac OS system files
+.DS_Store
+
+# Node.js / React
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.env
+frontend/.env.*
+
+# Build outputs
+frontend/build/
+frontend/dist/
+
+# Local coverage reports
+coverage/
+htmlcov/
+
+# npm package-lock / yarn lock (optional)
+package-lock.json
+yarn.lock
+
+# Ignore runtime artifacts
+*.sqlite3
+*.db
+
+# Optional: Ignore production deployment files
+*.pem
+*.key
+
+# Optional: Ignore OS-specific files
+Thumbs.db
+
+# Optional: Ignore IDE settings (if using JetBrains / PyCharm / Webstorm)
+.idea/
+
+# Ignore cache folders
+__pycache__/
+.cache/
+```
+
+---
+
+### ✅ This `.gitignore` will:
+
+- Ignore **backend** Python stuff (`venv/`, `.pyc`, `.env`, etc)
+- Ignore **frontend** React stuff (`node_modules/`, `.env`, `build/`, etc)
+- Ignore **editor** junk (`.vscode/`, `.idea/`)
+- Ignore **system** trash files (`.DS_Store`, `Thumbs.db`)
+- Ignore **logs**, **databases**, and **generated files**
+
+---
+
+Would you also like a sample `requirements.txt` and `package.json` (dependencies) suggestion next? 🚀
+It’ll make your project fully ready for GitHub deployment if you want. 🔥  
+(Just say **yes**!)
