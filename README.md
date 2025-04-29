@@ -4,7 +4,7 @@
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Demo](#demo)
 - [Features](#features)
@@ -35,7 +35,7 @@ Coming soon! (Deploying on Vercel + Render)
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Frontend | Backend | APIs | Other |
 |:---|:---|:---|:---|
