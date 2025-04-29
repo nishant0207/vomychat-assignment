@@ -1,5 +1,6 @@
 export async function generatePodcast(topic: string, selectedSpeakers: string[]) {
-    const response = await fetch('http://127.0.0.1:8000/generate_podcast/', {
+    // const response = await fetch('http://127.0.0.1:8000/generate_podcast/', {
+      const response = await fetch('https://vomychat-assignment.onrender.com/generate_podcast/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
