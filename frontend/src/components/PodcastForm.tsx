@@ -44,7 +44,8 @@ const PodcastForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/generate_podcast/",
+        // "http://localhost:8000/generate_podcast/",
+        "https://vomychat-assignment.onrender.com/generate_podcast/",
         { topic, selected_speakers: selectedSpeakers },
         { responseType: "blob" }
       );
